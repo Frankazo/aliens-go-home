@@ -8,9 +8,9 @@ const CannonBase = (props) => {
     strokeWidth: '2px',
   };
 
-  const baseWith = 80;
-  const halfBase = 40;
-  const height = 60;
+  const baseWith = 100;
+  const halfBase = 50;
+  const height = 70;
   const negativeHeight = height * -1;
 
   const cubicBezierCurve = {
@@ -19,7 +19,7 @@ const CannonBase = (props) => {
       y: height,
     },
     initialControlPoint: {
-      x: 20,
+      x: 40,
       y: negativeHeight,
     },
     endingControlPoint: {
