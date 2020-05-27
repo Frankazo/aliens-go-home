@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aliens-go-home/precache-manifest.af8bcde859fdce97d58dc6aebebaaca7.js"
+  "/aliens-go-home/precache-manifest.870eaa7cabd4f00af223111411c8f30a.js"
 );
 
 self.addEventListener('message', (event) => {
